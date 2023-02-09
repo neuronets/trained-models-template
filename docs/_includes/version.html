@@ -1,7 +1,7 @@
 {% if include.isLink == true %}
 <div class="version nonCollapsibleVersion {{ include.org }} {{ include.modelName }}" id="{{ include.version }}">
     <h3 class="header">{{ include.version }}</h3>
-    <a class="link" href="{{ baseurl }}/{{include.org}}/{{include.modelName}}/{{include.version}}/model"></a>
+    <a class="link" href="{{ site.baseurl }}/{{include.org}}/{{include.modelName}}/{{include.version}}/model"></a>
 </div>
 {% else %}
 <div class="version collapsibleVersion {{ include.org }} {{ include.modelName }}" id="{{ include.version }}">
